@@ -5,6 +5,7 @@ type Data = {
   name: string
 }
 
+// api 路由
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>

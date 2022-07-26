@@ -1,0 +1,50 @@
+.container{
+    min-width: 1200px;
+    padding: 0;
+    margin: 0;
+    background: orange;
+}
+.box{
+    width: 1200px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+.head{
+    height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    flex: 1
+}
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    margin-left: 80px;
+}
+.menu li{
+    margin:0;
+    padding:0;
+    display: inline-block;
+    line-height: 60px;
+    width: 120px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+}
+.menu li:hover{
+    color: black;
+    opacity: 0.5;
+    background: black;
+}
+.user{
+    line-height: 60px;
+}
